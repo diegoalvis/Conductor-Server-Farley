@@ -1,0 +1,23 @@
+{
+  "codigo": 1,
+  "mensaje": "servicios realizados encontrados",
+  "results":{
+    "key":"Adm2naSAD26jfb3Has3",
+    "conductor":
+      {
+        "id_conductor": 1,
+        "username": "a",
+        "email": "usuario@example.com",
+        "first_name": "Juan",
+        "last_name": "Perez",
+        "identificacion": "123456789",
+        "tipo_identificacion": "CC",
+        "foto": "http://icons.iconarchive.com/icons/iconshock/batman/256/Batman-icon.png",
+        "direccion": "Avenida Siempre viva 123",
+        "celular": "3123456789",
+        "telefono": "8325678",
+        "estado": "activo",
+        "calificacion": 4.5
+      }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "codigo":1,
+  "results": {
+    "calificaciones": [
+      {
+        "calificacion": 4.5,
+        "texto_calificacion": "Estoy conforme con el servicio prestado"
+      },
+      {
+        "calificacion": 3.5,
+        "texto_calificacion": "Estoy conforme con el servicio prestado"
+      },
+      {
+        "calificacion": 3,
+        "texto_calificacion": "El vehiculo tenia fallas"
+      },
+      {
+        "calificacion": 2,
+        "texto_calificacion": "El conductor fue grosero"
+      },
+      {
+        "calificacion": 5,
+        "texto_calificacion": "El servicio fue excelente"
+      },
+      {
+        "calificacion": 5,
+        "texto_calificacion": "El servicio fue excelente"
+      },
+      {
+        "calificacion": 2,
+        "texto_calificacion": "El vehiculo se demoro mucho en llegar al destino"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        <h1>FARLEY ETC</h1>
+        <h2>Serivicio para pruebas locales de la aplicacion Conductor Andorid version 1.0.0</h2>
+          <button id="solicitar">Solicitar carrera</button>
+          <button id="codigo">Enviar codigo verifciacion</button>
+        </br></br></br>
+          <label>Motivo</label></br>
+          <input type="text" id="txt_motivo"/><button id="cancelar">Cancelar carrera</button>
+        </br></br></br></br></br><iframe id="frame" src="http://net.ipcalf.com"></iframe>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+          var socket = io();
+          $( '#solicitar' ).click(function() {
+            socket.emit('requestService', 'solicitar servicio')
+            return false;  // retornar si se debe cerrar la conexion
+            });
+
+
+          $('#cancelar').click(function() {
+            var bla = $('#txt_motivo').val();
+            var objCancel = '{"motivo" : "' + $('#txt_motivo').val() + '"}';
+            socket.emit('rideCanceled', objCancel)
+            return false;  // retornar si se debe cerrar la conexion
+          })
+
+          $('#codigo').click(function() {
+            socket.emit('rideVerify', '{"codigo_verificacion":1234}')
+            return false;  // retornar si se debe cerrar la conexion
+          })
+        </script>
+    </body>
+</html>

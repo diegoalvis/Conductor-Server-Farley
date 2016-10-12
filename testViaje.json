@@ -1,0 +1,27 @@
+{
+  "codigo": 1,
+  "mensaje": "",
+  "results": {
+    "rid": 1,
+    "duracion": 0,
+    "user": {
+      "id_user": 1,
+      "first_name": "Carolina",
+      "last_name": "Jimenez",
+      "identificacion": 123456789,
+      "foto": "http://www.regiando.com/wp-content/uploads/2016/08/stephanie-magon.jpg",
+      "celular": "3ñ123456789",
+      "calificacion": 3.6
+    },
+    "orig": {
+      "lat": 2.449652,
+      "lng": -76.610173
+    },
+    "dest": {
+      "lat": 2.452372,
+      "lng": -76.603649,
+      "precio": 5700,
+      "fecha": "23/09/2016"
+    }
+  }
+}
