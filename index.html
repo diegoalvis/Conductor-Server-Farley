@@ -16,6 +16,7 @@
         <script src="/socket.io/socket.io.js"></script>
         <script>
           var socket = io();
+
           $( '#solicitar' ).click(function() {
             socket.emit('requestService', 'solicitar servicio')
             return false;  // retornar si se debe cerrar la conexion
